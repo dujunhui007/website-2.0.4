@@ -16,75 +16,106 @@ $(document).ready(function () {
 
         // console.log(currentPageArr);
         // var result = currentPageArr;
-        var ulStr = "";
+        var pageStr = "";
+        var particularStr = "";
 
-
-        $.each(currentPageArr, function (i, result) {
-          var particularData=result.particular;
-          ulStr += "        <li class=\"incidentContainer\">\n" +
+        for (var i = 0; i < currentPageArr.length; i++) {
+          var currentEvent = currentPageArr[i];
+          // console.log(currentEvent);
+          pageStr += " <li class=\"incidentContainer\">\n" +
             "                <div class=\"timeContentLeft\">\n" +
-            "                    <h3>" + result.year + "</h3>\n" +
-            "                    <p>" + result.monthDay + "</p>\n" +
+            "                    <h3>" + currentEvent.year + "</h3>\n" +
+            "                    <p>" + currentEvent.monthDay + "</p>\n" +
             "                    <i class=\"hideIncident\"></i>\n" +
             "                    <span class=\"leftLine\"></span>\n" +
             "                </div>\n" +
             "                <div class=\"timeContentRight\">\n" +
             "                    <div class=\"timeRightTitle\">\n" +
-            "                        <h4>" + result.title + "</h4>\n" +
+            "                        <h4>" + currentEvent.title + "</h4>\n" +
             "                    </div>\n" +
             "                    <div class=\"timeContentIncident\">\n" +
-            "                        <ul class=\"particulars\">\n" +
+            "                        <ul  class=\"particulars\">\n" +
             "                        </ul>\n" +
             "                    </div>\n" +
             "                </div>\n" +
             "            </li>";
 
 
-          // console.log(particularData);
-          // $(".timeLineContainer .timeContent .timeContentRight .timeContentIncident ul.particulars").empty();
-          $.each(particularData,function (j,particularResult) {
-            console.log(particularResult);
-            var particularStr = "";
-            particularStr +=" <li><p>" + particularResult+ "</p></li>";
+          for (var j = 0; j < currentEvent.particular.length; j++) {
+            var currentParticular = currentEvent.particular[j];
+            console.log(currentParticular);
+            particularStr += "<li><p>" + currentParticular + "</p></li>"
+          }
 
-            $(".timeLineContainer .timeContent .timeContentRight .timeContentIncident ul.particulars").append(particularStr)
-          });
+        }
 
 
-
-
-          // for (var j = 0; j < result.particular.length; j++) {
-          //   var obj = result.particular[j];
-          //   console.log(obj);
-          //
-          //   particularStr += "   <li>\n" +
-          //     "                               <p>" + obj + "</p>\n" +
-          //     "                            </li>";
-          //   return particularStr;
-          //   console.log(particularStr);
-          // }
-          //
-          // $(".timeLineContainer .timeContent .timeContentRight .timeContentIncident ul.particulars").append(particularStr)
-
-          // $.each(result.particular, function (particularResult) {
-          //   console.log(particularResult);
-          //   // for (particularKay in particularResult) {
-          //   //   console.log(particularResult);
-          //   //
-          //   // }
-
-
-          //   particularStr += " <li>\n" +
-          //     "                                <p>particularResult</p>\n" +
-          //     "                            </li>"
-          // })
-
-
-        });
+        // $.each(currentPageArr, function (i, result) {
+        //   var particularData=result.particular;
+        //   ulStr += "        <li class=\"incidentContainer\">\n" +
+        //     "                <div class=\"timeContentLeft\">\n" +
+        //     "                    <h3>" + result.year + "</h3>\n" +
+        //     "                    <p>" + result.monthDay + "</p>\n" +
+        //     "                    <i class=\"hideIncident\"></i>\n" +
+        //     "                    <span class=\"leftLine\"></span>\n" +
+        //     "                </div>\n" +
+        //     "                <div class=\"timeContentRight\">\n" +
+        //     "                    <div class=\"timeRightTitle\">\n" +
+        //     "                        <h4>" + result.title + "</h4>\n" +
+        //     "                    </div>\n" +
+        //     "                    <div class=\"timeContentIncident\">\n" +
+        //     "                        <ul class=\"particulars\">\n" +
+        //     "                        </ul>\n" +
+        //     "                    </div>\n" +
+        //     "                </div>\n" +
+        //     "            </li>";
+        //
+        //
+        //   // console.log(particularData);
+        //   // $(".timeLineContainer .timeContent .timeContentRight .timeContentIncident ul.particulars").empty();
+        //   // $.each(particularData,function (j,particularResult) {
+        //   //   console.log(particularResult);
+        //   //   var particularStr = "";
+        //   //   particularStr +=" <li><p>" + particularResult+ "</p></li>";
+        //   //
+        //   //   $(".timeLineContainer .timeContent .timeContentRight .timeContentIncident ul.particulars").append(particularStr)
+        //   // });
+        //
+        //
+        //
+        //
+        //   // for (var j = 0; j < result.particular.length; j++) {
+        //   //   var obj = result.particular[j];
+        //   //   console.log(obj);
+        //   //
+        //   //   particularStr += "   <li>\n" +
+        //   //     "                               <p>" + obj + "</p>\n" +
+        //   //     "                            </li>";
+        //   //   return particularStr;
+        //   //   console.log(particularStr);
+        //   // }
+        //   //
+        //   // $(".timeLineContainer .timeContent .timeContentRight .timeContentIncident ul.particulars").append(particularStr)
+        //
+        //   // $.each(result.particular, function (particularResult) {
+        //   //   console.log(particularResult);
+        //   //   // for (particularKay in particularResult) {
+        //   //   //   console.log(particularResult);
+        //   //   //
+        //   //   // }
+        //
+        //
+        //   //   particularStr += " <li>\n" +
+        //   //     "                                <p>particularResult</p>\n" +
+        //   //     "                            </li>"
+        //   // })
+        //
+        //
+        // });
         // console.log(ulStr);
 
-        $("#timeContentContainer").append(ulStr);
-        // $(".more-table-tbody").append(tableStr)
+        $("#timeContentContainer").append(pageStr);
+        $(".timeLineContainer .timeContent .timeContentRight .timeContentIncident ul.particulars").append(particularStr);
       },
       error: function () {
         alert("数据请求失败，请重新打开")

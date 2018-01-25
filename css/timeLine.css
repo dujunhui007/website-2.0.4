@@ -57,18 +57,20 @@ body{
     font-size: 48px;
     color: #8d8d8d;
     letter-spacing: 6px;
+    text-align: center;
 }
 
 .timeLineContainer .timeContent .timeContentLeft p{
     font-size: 23px;
     color: #8d8d8d;
+    text-align: center;
 }
 
 .timeLineContainer .timeContent .timeContentLeft .leftLine{
     position: absolute;
     display: block;
     top: 100px;
-    left: 66px;
+    left: 135px;
     width: 1px;
     /*height: 327px;*/
     border-left: 2px dashed #8d8d8d;
@@ -82,7 +84,7 @@ body{
 
 .timeLineContainer .timeContent .timeContentLeft .hideIncident{
     position: absolute;
-    left: 150px;
+    left: 220px;
     top: 30px;
     display: block;
     width: 0;
@@ -134,4 +136,25 @@ body{
     font-size: 18px;
     color: #000;
     line-height: 30px;
+}
+
+@media screen and (max-width: 1910px){
+    .timeLineContainer .timeContent{
+        width: 90%;
+    }
+    .timeLineContainer .timeContent .timeContentLeft .hideIncident{
+        left: 200px;
+    }
+
+    .timeLineContainer .timeContent .timeContentRight .timeRightTitle h4{
+        font-size: 20px;
+    }
+
+    .timeLineContainer .timeContent .timeContentRight .timeContentIncident ul li p{
+        font-size: 17px;
+    }
+
+    .timeLineContainer .timeContent .timeContentLeft .leftLine{
+        left: 120px;
+    }
 }
