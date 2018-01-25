@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a0f290-96e0-42c2-bd8a-f073c87a868f" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/timeLine-en.json" afterPath="$PROJECT_DIR$/timeData/timeLine-en.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/timeLine-zh.json" afterPath="$PROJECT_DIR$/timeData/timeLine-zh.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/dogWatermark.png" afterPath="$PROJECT_DIR$/images/watermark7.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/timeLine.css" afterPath="$PROJECT_DIR$/css/timeLine.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/timeLine.js" afterPath="$PROJECT_DIR$/js/timeLine.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/timeLine.html" afterPath="$PROJECT_DIR$/timeLine.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/application.css" afterPath="$PROJECT_DIR$/css/application.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,11 +34,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="timeLine.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="timeLine.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/timeLine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="744">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dapp7.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dapp7.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="91" column="38" lean-forward="false" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="38" />
+              <folding>
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="518" column="21" lean-forward="false" selection-start-line="518" selection-start-column="21" selection-end-line="518" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -79,7 +98,6 @@
         <option value="$PROJECT_DIR$/css/index.min.css" />
         <option value="$PROJECT_DIR$/timeLine.json" />
         <option value="$PROJECT_DIR$/timeLine-zh.json" />
-        <option value="$PROJECT_DIR$/css/application.css" />
         <option value="$PROJECT_DIR$/dapp6.html" />
         <option value="$PROJECT_DIR$/dapp7.html" />
         <option value="$PROJECT_DIR$/dapps.html" />
@@ -91,6 +109,7 @@
         <option value="$PROJECT_DIR$/css/timeLine.css" />
         <option value="$PROJECT_DIR$/timeLine.html" />
         <option value="$PROJECT_DIR$/js/timeLine.js" />
+        <option value="$PROJECT_DIR$/css/application.css" />
       </list>
     </option>
   </component>
@@ -126,6 +145,16 @@
             <path>
               <item name="website-2.0.4" type="b2602c69:ProjectViewProjectNode" />
               <item name="website-2.0.4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website-2.0.4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-2.0.4" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website-2.0.4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-2.0.4" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="website-2.0.4" type="b2602c69:ProjectViewProjectNode" />
@@ -179,12 +208,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516763602323</updated>
       <workItem from="1516763603795" duration="12419000" />
-      <workItem from="1516793635168" duration="21850000" />
+      <workItem from="1516793635168" duration="22885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34269000" />
+    <option name="totallyTimeSpent" value="35304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -196,7 +225,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1748512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -292,14 +321,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="508" column="16" lean-forward="true" selection-start-line="508" selection-start-column="16" selection-end-line="508" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/dapps.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
@@ -329,16 +350,6 @@
         <state relative-caret-position="2552">
           <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dapp7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="109" column="57" lean-forward="false" selection-start-line="109" selection-start-column="43" selection-end-line="109" selection-end-column="57" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -404,10 +415,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/dappImg7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapp7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="91" column="38" lean-forward="false" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="38" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/timeLine.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="744">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/watermark7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="518" column="21" lean-forward="false" selection-start-line="518" selection-start-column="21" selection-end-line="518" selection-end-column="21" />
           <folding />
         </state>
       </provider>

@@ -512,6 +512,17 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     background-size: cover;
 }
 
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight i.dogWatermark {
+    position: absolute;
+    display: block;
+    width: 105px;
+    height: 88px;
+    right: 10px;
+    top: -21px;
+    background: url("../images/watermark7.png") no-repeat center;
+    background-size: cover;
+}
+
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight .contentRightTitle {
     display: block;
     width: 96%;
