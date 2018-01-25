@@ -68,7 +68,7 @@ $(document).ready(function () {
 
     $(".timeLineContainer .timeContent .timeContentLeft .leftLine").each(function () {
 
-      $(this).css("height", ($(this).parent().parent().find(".timeContentIncident").height() + 90));
+      $(this).css("height", ($(this).parent().parent().find(".timeContentIncident").height() + 50));
     });
     $(".timeLineContainer .incidentContainer:last").find(".leftLine").css("height", "0")
   }

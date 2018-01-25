@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a0f290-96e0-42c2-bd8a-f073c87a868f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/timeLine1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/timeLine.css" afterPath="$PROJECT_DIR$/css/timeLine.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/timeLine.js" afterPath="$PROJECT_DIR$/js/timeLine.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/timeLine.html" afterPath="$PROJECT_DIR$/timeLine.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/timeLine1.js" afterPath="$PROJECT_DIR$/js/timeLine1.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,41 +33,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="timeLine.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/WeChat Files/djh007-810743626/Files/timeLine.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="timeLine1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/timeLine1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="timeLine-zh.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="timeLine-zh.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/timeData/timeLine-zh.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="548" column="15" lean-forward="false" selection-start-line="548" selection-start-column="5" selection-end-line="548" selection-end-column="15" />
+            <state relative-caret-position="7840">
+              <caret line="551" column="4" lean-forward="true" selection-start-line="551" selection-start-column="4" selection-end-line="551" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="timeLine.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="timeLine.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/timeLine.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="157" column="19" lean-forward="false" selection-start-line="157" selection-start-column="19" selection-end-line="157" selection-end-column="19" />
+            <state relative-caret-position="196">
+              <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,8 +86,8 @@
         <option value="$PROJECT_DIR$/css/application.css" />
         <option value="$PROJECT_DIR$/js/timeLine.js" />
         <option value="$PROJECT_DIR$/timeLine.html" />
-        <option value="$PROJECT_DIR$/js/timeLine1.js" />
         <option value="$PROJECT_DIR$/css/timeLine.css" />
+        <option value="$PROJECT_DIR$/js/timeLine1.js" />
       </list>
     </option>
   </component>
@@ -110,7 +97,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="175" />
     <option name="width" value="828" />
     <option name="height" value="362" />
@@ -205,15 +192,15 @@
       <option name="presentableId" value="Default" />
       <updated>1516763602323</updated>
       <workItem from="1516763603795" duration="12419000" />
-      <workItem from="1516793635168" duration="26161000" />
+      <workItem from="1516793635168" duration="27472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38580000" />
+    <option name="totallyTimeSpent" value="39891000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -413,22 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/timeData/timeLine-zh.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="548" column="15" lean-forward="false" selection-start-line="548" selection-start-column="5" selection-end-line="548" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/djh007-810743626/Files/timeLine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/timeLine.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
@@ -436,14 +407,6 @@
           <folding>
             <element signature="e#2107#2155#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/timeLine1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -462,8 +425,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/timeLine.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="157" column="19" lean-forward="false" selection-start-line="157" selection-start-column="19" selection-end-line="157" selection-end-column="19" />
+        <state relative-caret-position="196">
+          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/djh007-810743626/Files/timeLine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1800">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/timeLine1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timeData/timeLine-zh.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7840">
+          <caret line="551" column="4" lean-forward="true" selection-start-line="551" selection-start-column="4" selection-end-line="551" selection-end-column="4" />
           <folding />
         </state>
       </provider>

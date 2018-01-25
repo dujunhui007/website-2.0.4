@@ -103,7 +103,7 @@ body{
 
 .timeLineContainer .timeContent .timeContentRight .timeRightTitle{
     width: 100%;
-    height: 110px;
+    height: 70px;
     border-bottom: 1px solid #e5e5e5;
     padding-left: 50px;
     box-sizing: border-box;
@@ -112,9 +112,9 @@ body{
 
 .timeLineContainer .timeContent .timeContentRight .timeRightTitle h4{
     width: 100%;
-    height: 110px;
+    height: 70px;
     font-size: 25px;
-    line-height: 110px;
+    line-height: 70px;
     text-align: left;
 }
 
@@ -123,9 +123,8 @@ body{
 }
 
 .timeLineContainer .timeContent .timeContentRight .timeContentIncident ul{
-    padding: 50px 50px 70px 50px;
+    padding: 25px 50px 45px 50px;
     box-sizing: border-box;
-
 }
 
 .timeLineContainer .timeContent .timeContentRight .timeContentIncident ul li{
