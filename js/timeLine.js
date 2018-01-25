@@ -17,7 +17,7 @@ $(document).ready(function () {
 
       // alert($(this).height());
       // alert($(this).parent().parent().find(".timeContentIncident").height());
-      $(this).css("height",$(this).parent().parent().find(".timeContentIncident").height())
+      $(this).css("height",($(this).parent().parent().find(".timeContentIncident").height()+90))
     })
   }
 

@@ -1585,29 +1585,29 @@ ul.homeLinks li:nth-child(4) i {
 #application #toDapps{
     position: absolute;
     display: block;
-    width: 100px;
-    height: 40px;
-    top:-50px;
-    right:0;
+    width: 75px;
+    height: 30px;
+    top: -50px;
+    right: 0;
     font-family: aschFont;
-    /*margin: 50px auto 0 auto;*/
-    line-height: 40px;
+    /* margin: 50px auto 0 auto; */
+    line-height: 30px;
     text-align: center;
     color: rgba(53,53,53,.5);
     background: #fff;
-    /*border: 1px solid #ccc;*/
+    /* border: 1px solid #ccc; */
     box-shadow: 0 0 10px rgba(0,0,0,.16);
     border-radius: 20px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
-@media screen and (max-width: 1910px){
-    #application #toDapps{
-        width: 90px;
-        line-height: 36px;
-        height: 36px;
-    }
-}
+/*@media screen and (max-width: 1910px){*/
+    /*#application #toDapps{*/
+        /*width: 90px;*/
+        /*line-height: 36px;*/
+        /*height: 36px;*/
+    /*}*/
+/*}*/
 
 
 

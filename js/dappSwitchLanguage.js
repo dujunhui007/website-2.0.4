@@ -136,23 +136,30 @@ function loadProperties(str) {
       $('#applicationCenterTitle3').html($.i18n.prop('string_applicationCenterTitle1'));
       $('#applicationCenterTitle4').html($.i18n.prop('string_applicationCenterTitle1'));
       $('#applicationCenterTitle5').html($.i18n.prop('string_applicationCenterTitle1'));
+      $('#applicationCenterTitle6').html($.i18n.prop('string_applicationCenterTitle1'));
 
       $('#dappsList').html($.i18n.prop('string_dappsList'));
       $('#dappsTitle2').html($.i18n.prop('string_dappsTitle2'));
       $('#dappsTitle3').html($.i18n.prop('string_dappsTitle3'));
       $('#dappsTitle5').html($.i18n.prop('string_dappsTitle5'));
+      $('#dappsTitle6').html($.i18n.prop('string_dappsTitle6'));
+      $('#dappsTitle7').html($.i18n.prop('string_dappsTitle7'));
 
       $('#dappsContentTest1').html($.i18n.prop('string_dappsContentTest1'));
       $('#dappsContentTest2').html($.i18n.prop('string_dappsContentTest2'));
       $('#dappsContentTest3').html($.i18n.prop('string_dappsContentTest3'));
       $('#dappsContentTest4').html($.i18n.prop('string_dappsContentTest4'));
       $('#dappsContentTest5').html($.i18n.prop('string_dappsContentTest5'));
+      $('#dappsContentTest6').html($.i18n.prop('string_dappsContentTest6'));
+      $('#dappsContentTest7').html($.i18n.prop('string_dappsContentTest7'));
 
       $('#dappsLink1').html($.i18n.prop('string_dappsLink1'));
       $('#dappsLink2').html($.i18n.prop('string_dappsLink1'));
       $('#dappsLink3').html($.i18n.prop('string_dappsLink1'));
       $('#dappsLink4').html($.i18n.prop('string_dappsLink1'));
       $('#dappsLink5').html($.i18n.prop('string_dappsLink1'));
+      $('#dappsLink6').html($.i18n.prop('string_dappsLink1'));
+      $('#dappsLink7').html($.i18n.prop('string_dappsLink1'));
 
       $('#dappsContentTest11').html($.i18n.prop('string_aschSide1'));
       $('#dappsContentTest12').html($.i18n.prop('string_aschSide2'));
@@ -169,6 +176,12 @@ function loadProperties(str) {
       $('#dappsContentTest51').html($.i18n.prop('string_aschSide13'));
       $('#dappsContentTest52').html($.i18n.prop('string_aschSide14'));
       $('#dappsContentTest53').html($.i18n.prop('string_aschSide15'));
+      $('#dappsContentTest61').html($.i18n.prop('string_aschSide16'));
+      $('#dappsContentTest62').html($.i18n.prop('string_aschSide17'));
+      $('#dappsContentTest63').html($.i18n.prop('string_aschSide18'));
+      $('#dappsContentTest71').html($.i18n.prop('string_aschSide19'));
+      $('#dappsContentTest72').html($.i18n.prop('string_aschSide20'));
+      $('#dappsContentTest73').html($.i18n.prop('string_aschSide21'));
 
 
 
@@ -177,6 +190,8 @@ function loadProperties(str) {
       $('#dappDescribe3').html($.i18n.prop('string_dappDescribe3'));
       $('#dappDescribe4').html($.i18n.prop('string_dappDescribe4'));
       $('#dappDescribe5').html($.i18n.prop('string_dappDescribe5'));
+      $('#dappDescribe6').html($.i18n.prop('string_dappDescribe6'));
+      $('#dappDescribe7').html($.i18n.prop('string_dappDescribe7'));
 
       $('#aschSide1').html($.i18n.prop('string_aschSide1'));
       $('#aschSide2').html($.i18n.prop('string_aschSide2'));
@@ -193,6 +208,12 @@ function loadProperties(str) {
       $('#aschSide13').html($.i18n.prop('string_aschSide13'));
       $('#aschSide14').html($.i18n.prop('string_aschSide14'));
       $('#aschSide15').html($.i18n.prop('string_aschSide15'));
+      $('#aschSide16').html($.i18n.prop('string_aschSide16'));
+      $('#aschSide17').html($.i18n.prop('string_aschSide17'));
+      $('#aschSide18').html($.i18n.prop('string_aschSide18'));
+      $('#aschSide19').html($.i18n.prop('string_aschSide19'));
+      $('#aschSide20').html($.i18n.prop('string_aschSide20'));
+      $('#aschSide21').html($.i18n.prop('string_aschSide21'));
 
       $('#websiteText1').html($.i18n.prop('string_websiteText1'));
       $('#websiteText2').html($.i18n.prop('string_websiteText1'));
@@ -210,18 +231,26 @@ function loadProperties(str) {
       $('#dappContentTitle32').html($.i18n.prop('string_dappContentTitle31'));
       $('#dappContentTitle51').html($.i18n.prop('string_dappContentTitle51'));
       $('#dappContentTitle52').html($.i18n.prop('string_dappContentTitle51'));
+      $('#dappContentTitle61').html($.i18n.prop('string_dappContentTitle61'));
+      $('#dappContentTitle62').html($.i18n.prop('string_dappContentTitle61'));
+      $('#dappContentTitle71').html($.i18n.prop('string_dappContentTitle71'));
+      $('#dappContentTitle72').html($.i18n.prop('string_dappContentTitle71'));
 
       $('#dappIntroduction1').html($.i18n.prop('string_dappIntroduction1'));
       $('#dappIntroduction2').html($.i18n.prop('string_dappIntroduction1'));
       $('#dappIntroduction3').html($.i18n.prop('string_dappIntroduction1'));
       $('#dappIntroduction4').html($.i18n.prop('string_dappIntroduction1'));
       $('#dappIntroduction5').html($.i18n.prop('string_dappIntroduction1'));
+      $('#dappIntroduction6').html($.i18n.prop('string_dappIntroduction1'));
+      $('#dappIntroduction7').html($.i18n.prop('string_dappIntroduction1'));
 
       $('#dappIntroductionContent1').html($.i18n.prop('string_dappIntroductionContent1'));
       $('#dappIntroductionContent2').html($.i18n.prop('string_dappIntroductionContent2'));
       $('#dappIntroductionContent3').html($.i18n.prop('string_dappIntroductionContent3'));
       $('#dappIntroductionContent4').html($.i18n.prop('string_dappIntroductionContent4'));
       $('#dappIntroductionContent5').html($.i18n.prop('string_dappIntroductionContent5'));
+      $('#dappIntroductionContent6').html($.i18n.prop('string_dappIntroductionContent6'));
+      $('#dappIntroductionContent7').html($.i18n.prop('string_dappIntroductionContent7'));
 
       $('#dappFooterText11').html($.i18n.prop('string_dappFooterText11'));
       $('#dappFooterText21').html($.i18n.prop('string_dappFooterText11'));

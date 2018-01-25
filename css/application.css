@@ -501,6 +501,17 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     background-size: cover;
 }
 
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight i.subSpaceWatermark {
+    position: absolute;
+    display: block;
+    width: 148px;
+    height: 75px;
+    right: 10px;
+    top: -21px;
+    background: url("../images/watermark6.png") no-repeat center;
+    background-size: cover;
+}
+
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight .contentRightTitle {
     display: block;
     width: 96%;

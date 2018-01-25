@@ -224,4 +224,9 @@
         line-height: 22px;
     }
 
+    .dappsContainer ul li:nth-child(7) .dappContainer .dappContainerRight .dappContainerRightContainer .dappContentLeft p{
+        margin-top: 5px;
+        line-height: 18px;
+    }
+
 }
