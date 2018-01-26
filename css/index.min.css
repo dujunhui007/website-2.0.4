@@ -3687,6 +3687,10 @@ ul.homeLinks li:nth-child(4) i {
     cursor: pointer
 }
 
+#links .linksContainer .linksItems:nth-child(1) ul li{
+    width: 250px;
+}
+
 #links .linksContainer .linksItems ul li i {
     display: inline-block;
     width: 10px;

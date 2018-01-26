@@ -261,7 +261,7 @@ $(function () {
             "                <div class=\"rodemapContainerRight\">\n" +
             "\n" +
             "                    <div class=\"rodemapContainerRightTitle\">\n" +
-            "                        <p title="+ result.title +">" + result.title + "</p>\n" +
+            "                        <p title='"+ result.title +"'>" + result.title + "</p>\n" +
             "                    </div>\n" +
             "                    <ul class=\"rodemapContainerRightContent\">" + particularStr + "</ul>" +
             "                </div>\n" +
