@@ -26,9 +26,6 @@ body, html {
     cursor: pointer;
 }
 
-
-
-
 .btnContainer .btn1, .btnContainer .btn2 {
     /*position: relative;*/
     width: 120px;
@@ -36,7 +33,6 @@ body, html {
     /*margin: 2px 0;*/
     padding: 0 10px;
 }
-
 
 .btnContainer .btn1 {
     position: absolute;
@@ -176,11 +172,6 @@ nav .navContainer .navRight {
     background: 0 0;
     padding-right: 300px;
 }
-
-
-
-
-
 
 nav .navContainer .navRight .equalThan {
     width: 120%;
@@ -1576,13 +1567,13 @@ ul.homeLinks li:nth-child(4) i {
     border: 1px solid rgba(189, 189, 189, 1);
 }
 
-#application #toDapps:hover{
+#application #toDapps:hover {
     background: #ffa81c;
     color: #fff;
     /*box-shadow: 0 0 20px #ffa81c;*/
 }
 
-#application #toDapps{
+#application #toDapps {
     position: absolute;
     display: block;
     width: 75px;
@@ -1593,25 +1584,23 @@ ul.homeLinks li:nth-child(4) i {
     /* margin: 50px auto 0 auto; */
     line-height: 30px;
     text-align: center;
-    color: rgba(53,53,53,.5);
+    color: rgba(53, 53, 53, .5);
     background: #fff;
     /* border: 1px solid #ccc; */
-    box-shadow: 0 0 10px rgba(0,0,0,.16);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .16);
     border-radius: 20px;
     font-size: 16px;
 }
 
 /*@media screen and (max-width: 1910px){*/
-    /*#application #toDapps{*/
-        /*width: 90px;*/
-        /*line-height: 36px;*/
-        /*height: 36px;*/
-    /*}*/
+/*#application #toDapps{*/
+/*width: 90px;*/
+/*line-height: 36px;*/
+/*height: 36px;*/
+/*}*/
 /*}*/
 
-
-
-    /*feature*/
+/*feature*/
 #features {
     padding: 70px 0 100px 0;
     box-sizing: border-box;
@@ -3345,6 +3334,194 @@ ul.homeLinks li:nth-child(4) i {
     }
 }
 
+#timeLine {
+    width: 100%;
+    background: #fff;
+    padding: 70px 0 100px 0;
+    box-sizing: border-box
+}
+
+#timeLine .sectionTop i {
+    width: 38px;
+    height: 38px;
+    background: url(../images/timeLineIcon.png) no-repeat center;
+    background-size: cover
+}
+
+#timeLine .timeLineContainer {
+    position: relative;
+    width: 70%;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 1000px;
+    background: #fff;
+    /*border: 1px solid #ccc;*/
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 6px;
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+#timeLine .timeLineContainer .timeLineLogo span {
+    position: absolute;
+    display: block;
+    width: 88px;
+    left: 150px;
+    top: 50px;
+    z-index: 2;
+}
+
+#timeLine .timeLineContainer .timeLineLogo span img {
+    width: 100%;
+}
+
+#timeLine .timeLineContainer .timeLineLogo i {
+    position: absolute;
+    display: block;
+    width: 8px;
+    left: 190px;
+    top: 135px;
+    z-index: 1;
+}
+
+#timeLine .timeLineContainer .timeLineLogo i img {
+    width: 100%;
+}
+
+#timeLine .toTimeLine:hover {
+    color: #fff;
+    background: #f49e14;
+    border: none;
+}
+
+#timeLine .toTimeLine {
+    position: absolute;
+    display: block;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    right: 60px;
+    bottom: 40px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    font-family: aschFont;
+    font-size: 28px;
+    color: #8d8d8d;
+    z-index: 3;
+}
+
+#timeLine .rodemapContainer {
+    width: 100%;
+    height: 800px;
+    margin-top: 40px;
+    /*background: lightblue;*/
+}
+
+#timeLine .rodemapContainer li {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#timeLine .rodemapContainer li .rodemapContainerLeft {
+    width: 195px;
+    display: inline-block;
+    /*background: slateblue;*/
+}
+
+#timeLine .rodemapContainer li .rodemapContainerLeft h3 {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 36px;
+    color: #8d8d8d;
+    letter-spacing: 3px;
+}
+
+#timeLine .rodemapContainer li .rodemapContainerLeft p {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #8d8d8d;
+    letter-spacing: 3px;
+}
+
+#timeLine .rodemapContainer li:hover .point {
+    border: 5px solid rgba(246, 177, 67, .8);
+    width: 22px;
+    height: 22px;
+    left: 183px;
+    top: 18px;
+}
+
+#timeLine .rodemapContainer li:hover .point b {
+    display: block;
+}
+
+#timeLine .rodemapContainer li .point {
+    position: absolute;
+    left: 185px;
+    top: 20px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 3px solid #f49e14;
+    z-index: 2;
+    background: #fff;
+}
+
+#timeLine .rodemapContainer li .point b {
+    display: none;
+    position: absolute;
+    left: -8.5px;
+    top: -8px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 3px solid rgba(248, 197, 114, .6);
+    z-index: 1;
+}
+
+#timeLine .rodemapContainer li .rodemapContainerRight {
+    width: calc(100% - 200px);
+    /*height: 300px;*/
+    /*background: red;*/
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 30px;
+}
+
+#timeLine .rodemapContainer li .rodemapContainerRight .rodemapContainerRightTitle p {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    font-size: 26px;
+    color: rgba(0, 0, 0, .7);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#timeLine .rodemapContainer li .rodemapContainerRight .rodemapContainerRightContent {
+    padding-left: 20px;
+}
+
+#timeLine .rodemapContainer li .rodemapContainerRight .rodemapContainerRightContent li {
+    list-style: disc;
+    margin-bottom: 10px;
+}
+
+#timeLine .rodemapContainer li .rodemapContainerRight .rodemapContainerRightContent li p {
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(0,0,0,.7);
+}
+
 #media {
     width: 100%;
     background: #fff;
@@ -3353,8 +3530,8 @@ ul.homeLinks li:nth-child(4) i {
 }
 
 #media .sectionTop i {
-    width: 34px;
-    height: 31px;
+    width: 38px;
+    height: 34px;
     background: url(../images/partenersTopIcon.png) no-repeat center;
     background-size: cover
 }
@@ -3641,10 +3818,11 @@ footer .footerRight span {
     font-family: aschFont;
 }
 
-@media screen and (max-width: 1910px){
-    .switchLanguageBtn{
+@media screen and (max-width: 1910px) {
+    .switchLanguageBtn {
         right: 4px;
     }
+
     nav .navContainer .navRight {
         position: relative;
         width: 72%;

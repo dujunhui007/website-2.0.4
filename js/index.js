@@ -164,21 +164,4 @@ $(document).ready(function () {
       window.open("dapp4.html");
     })
 
-
-  // $("#introduction .introductionContainer .aschVideo").click(function () {
-  //   // window.location.href = "aschVideo.html";
-  //   window.open("aschVideo.html");
-  // })
-
-  // $("#introduction .introductionContainer .aschVideo").click(function () {
-  //   if (isEdge > -1) {
-  //     $("#introduction .videoContainer").css("display", "none");
-  //     window.open("aschVideo.html");
-  //   } else if (!!window.ActiveXObject || "ActiveXObject" in window) {
-  //     $("#introduction .videoContainer").css("display", "none");
-  //     window.open("aschVideo.html");
-  //   } else {
-  //     $("#introduction .videoContainer").css("display", "block");
-  //   }
-  // })
 });

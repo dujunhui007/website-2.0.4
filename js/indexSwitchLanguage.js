@@ -37,7 +37,7 @@ $(function () {
 
 
   // console.log(screen.width);
-  var languageFlag, getCookieKey;
+  var languageFlag, getCookieKey, urlZh = "timeData/timeLine-zh.json", urlEn = "timeData/timeLine-en.json";
   languageFlag = "languageFlag";
 
   loadProperties("strings_en");
@@ -48,10 +48,12 @@ $(function () {
     if (getCookieKey == 0) {
       loadProperties("strings_en");
       switchEn();
+      getInfo(urlEn);
       window.flag = 1;
     } else {
       loadProperties("strings_zh-CN");
       switchZh();
+      getInfo(urlZh);
       window.flag = 0;
     }
     window.flag = getCookieKey;
@@ -59,11 +61,13 @@ $(function () {
     if (currentLang == "zh-CN") {
       loadProperties("strings_zh-CN");
       switchZh();
+      getInfo(urlZh);
       // alert(getCookieKey);
       window.flag = 1;
     } else {
       loadProperties("strings_en");
       switchEn();
+      getInfo(urlEn);
       // alert(getCookieKey);
       window.flag = 0;
     }
@@ -202,11 +206,94 @@ $(function () {
 
     if (screen.width > 1910) {
       $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top": "0px"});
-    }else if((1596< screen.width) && (screen.width < 1910)){
-      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"line-height": "50px","padding-top": "5px"});
-    }else {
-      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"line-height": "50px","padding-top": "5px"});
+    } else if ((1596 < screen.width) && (screen.width < 1910)) {
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({
+        "line-height": "50px",
+        "padding-top": "5px"
+      });
+    } else {
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({
+        "line-height": "50px",
+        "padding-top": "5px"
+      });
     }
+  }
+
+  function getInfo(languageUrl) {
+    $.ajax({
+      url: languageUrl,
+      type: "GET",
+      dataType: "json",
+      async: false,
+      success: function (data) {
+        var currentPageArr;
+        data.reverse();
+        // console.log(data);
+        $("#timeLine .rodemapContainer").empty();
+        // currentPageArr = data.slice((pageNumber - 1), (pageNumber + 4));
+        currentPageArr = data;
+
+        // console.log(currentPageArr);
+        // var result = currentPageArr;
+        var ulStr = "";
+
+        $.each(currentPageArr, function (i, result) {
+          var particularData = result.particular;
+          var particularStr = "";
+
+          // console.log(particularData);
+          // $(".timeLineContainer .timeContent .timeContentRight .timeContentIncident ul.particulars").empty();
+          $.each(particularData, function (j, particularResult) {
+            // console.log(particularResult);
+            particularStr += "<li><p>" + particularResult + "</p></li>";
+
+            // $(".timeLineContainer .timeContent .timeContentRight .timeContentIncident ul.particulars").append(particularStr)
+          });
+
+          ulStr += "     <li>\n" +
+            "                <div class=\"rodemapContainerLeft\">\n" +
+            "                    <h3>" + result.year +"</h3>\n" +
+            "                    <p>" + result.monthDay + "</p>\n" +
+            "                </div>\n" +
+            "\n" +
+            "                <div class=\"point\"><b></b></div>\n" +
+            "\n" +
+            "                <div class=\"rodemapContainerRight\">\n" +
+            "\n" +
+            "                    <div class=\"rodemapContainerRightTitle\">\n" +
+            "                        <p title="+ result.title +">" + result.title + "</p>\n" +
+            "                    </div>\n" +
+            "                    <ul class=\"rodemapContainerRightContent\">" + particularStr + "</ul>" +
+            "                </div>\n" +
+            "            </li>";
+
+
+          // ulStr += "        <li class=\"incidentContainer\">\n" +
+          //   "                <div class=\"timeContentLeft\">\n" +
+          //   "                    <h3>" + result.year + "</h3>\n" +
+          //   "                    <p>" + result.monthDay + "</p>\n" +
+          //   "                    <i class=\"hideIncident\"></i>\n" +
+          //   "                    <span class=\"leftLine\"></span>\n" +
+          //   "                </div>\n" +
+          //   "                <div class=\"timeContentRight\">\n" +
+          //   "                    <div class=\"timeRightTitle\">\n" +
+          //   "                        <h4>" + result.title + "</h4>\n" +
+          //   "                    </div>\n" +
+          //   "                    <div class=\"timeContentIncident\">\n" +
+          //   "                        <ul class=\"particulars\">" + particularStr + "</ul>" +
+          //   "                    </div>\n" +
+          //   "                </div>\n" +
+          //   "            </li>";
+
+        });
+        // console.log(ulStr);
+
+        $(".rodemapContainer").append(ulStr);
+      },
+      error: function () {
+        alert("数据请求失败，请重新打开")
+      }
+    });
   }
 
 
@@ -214,11 +301,13 @@ $(function () {
 
     if (flag == 1) {
       loadProperties("strings_en");
+      getInfo(urlEn);
       window.flag = 0;
       setCookie(languageFlag, flag);
       switchEn();
     } else {
       loadProperties("strings_zh-CN");
+      getInfo(urlZh);
       window.flag = 1;
       setCookie(languageFlag, flag);
       switchZh();
@@ -281,6 +370,7 @@ function loadProperties(str) {
       $('#commonText4').html($.i18n.prop('string_commonText1'));
       $('#commonText5').html($.i18n.prop('string_commonText1'));
       $('#commonText6').html($.i18n.prop('string_commonText1'));
+      $('#commonText7').html($.i18n.prop('string_commonText1'));
       $('#featuresTopTitle').html($.i18n.prop('string_featuresTopTitle'));
       $('#featuresTopTitleContent').html($.i18n.prop('string_featuresTopTitleContent'));
 
@@ -374,6 +464,8 @@ function loadProperties(str) {
       $('#downloadLink22').html($.i18n.prop('string_downloadLink11'));
       $('#downloadLink33').html($.i18n.prop('string_downloadLink11'));
       $('#downloadLink44').html($.i18n.prop('string_downloadLink11'));
+
+      $('#timeLineTitle').html($.i18n.prop('string_timeLineTitle'));
 
 
       $('#partnersTitle').html($.i18n.prop('string_partnersTitle'));
