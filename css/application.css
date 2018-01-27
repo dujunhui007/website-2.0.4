@@ -654,7 +654,6 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     font-family: aschFont;
     margin-bottom: 20px;
 }
-
 footer {
     position: relative;
     width: 100%;
@@ -668,6 +667,7 @@ footer .footerContainer {
     position: relative;
     width: 70%;
     margin: 0 auto;
+    max-width: 1400px;
 }
 
 footer .footerLeft {
@@ -683,13 +683,13 @@ footer .footerLeft p {
     height: 30px;
     line-height: 30px;
     font-size: 18px;
-    font-family: aschFont;
     text-align: left;
     margin-bottom: 20px
 }
 
 footer .footerLeft .footerWeChat p {
-    width: 100%
+    width: 100%;
+    font-family: aschFont;
 }
 
 footer .footerLeft .footerWeChat span {
@@ -701,7 +701,8 @@ footer .footerLeft .footerWeChat span {
 }
 
 footer .footerLeft .footerWb p {
-    width: 100%
+    width: 100%;
+    font-family: aschFont;
 }
 
 footer .footerLeft .footerWb span {
@@ -712,7 +713,7 @@ footer .footerLeft .footerWb span {
     background-size: cover
 }
 
-footer .footerRight:hover i {
+footer .footerRight a:nth-child(2):hover i {
     display: inline-block;
     width: 14px;
     height: 10px;
@@ -722,8 +723,23 @@ footer .footerRight:hover i {
     margin-right: 10px
 }
 
-footer .footerRight:hover span {
+footer .footerRight a:hover span {
     color: #ffa81c
+}
+
+footer .footerRight a:hover i {
+    color: #ffa81c
+}
+
+footer .footerRight a i {
+    color: #fff
+}
+
+
+footer .footerRight a{
+    display: block;
+    width: 330px;
+    overflow: hidden;
 }
 
 footer .footerRight {
@@ -736,11 +752,11 @@ footer .footerRight {
 footer .footerRight p {
     color: #fff;
     font-size: 18px;
+    margin-bottom: 20px;
     font-family: aschFont;
-    margin-bottom: 50px
 }
 
-footer .footerRight i {
+footer .footerRight a:nth-child(2) i {
     display: inline-block;
     width: 14px;
     height: 10px;
@@ -753,6 +769,8 @@ footer .footerRight i {
 footer .footerRight span {
     color: #fff;
     font-family: aschFont;
+    margin-left: 10px;
+    float: right;
 }
 
 @media screen and (max-width: 1910px){

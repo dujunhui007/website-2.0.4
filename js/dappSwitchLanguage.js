@@ -418,6 +418,18 @@ function loadProperties(str) {
       $('#footerLink2').html($.i18n.prop('string_footerLink2'));
       $('#footerLink3').html($.i18n.prop('string_footerLink3'));
 
+      $('#qqLink1').html($.i18n.prop('string_qqLink1'));
+      $('#qqLink2').html($.i18n.prop('string_qqLink2'));
+      $('#qqLink3').html($.i18n.prop('string_qqLink3'));
+      $('#qqLink4').html($.i18n.prop('string_qqLink4'));
+      $('#qqLink5').html($.i18n.prop('string_qqLink5'));
+      $('#qqLink6').html($.i18n.prop('string_qqLink6'));
+
+
+      $('#footerEmail2').html($.i18n.prop('string_footerEmail2'));
+      $('#footerEmail3').html($.i18n.prop('string_footerEmail3'));
+      $('#footerEmail4').html($.i18n.prop('string_footerEmail4'));
+
     }
   });
 }

@@ -120,12 +120,15 @@ body{
 
 
 .timeLineContainer .timeContent .timeContentRight .timeRightTitle h4{
-    width: 100%;
+    width: 90%;
     height: 70px;
     font-size: 25px;
     line-height: 70px;
     text-align: left;
     font-family: aschFont;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .timeLineContainer .timeContent .timeContentRight .timeContentIncident{
