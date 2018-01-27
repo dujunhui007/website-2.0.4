@@ -237,7 +237,7 @@ nav .navContainer .navRight .moreThan li a {
     height: 100%;
     color: #000;
     font-size: 18px;
-    padding-right: 20px;
+    padding-right: 11px;
     font-family: aschFont;
 }
 
@@ -3839,10 +3839,9 @@ footer .footerRight span {
     float: right;
 }
 
+
+
 @media screen and (max-width: 1910px) {
-    .switchLanguageBtn {
-        right: 4px;
-    }
 
     nav .navContainer .navRight {
         position: relative;
@@ -3891,6 +3890,19 @@ footer .footerRight span {
         color: #8d8d8d;
         z-index: 3;
     }
+}
 
+@media screen and (min-width:1400px) and (max-width:1910px){
+    .switchLanguageBtn {
+        right: -70px;
+    }
+    nav .navContainer .navRight{
+        padding-right: 205px;
+    }
+}
 
+@media screen and (max-width: 1400px){
+    .switchLanguageBtn {
+        right: -5px;
+    }
 }

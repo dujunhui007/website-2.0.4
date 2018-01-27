@@ -267,24 +267,6 @@ $(function () {
             "                </div>\n" +
             "            </li>";
 
-
-          // ulStr += "        <li class=\"incidentContainer\">\n" +
-          //   "                <div class=\"timeContentLeft\">\n" +
-          //   "                    <h3>" + result.year + "</h3>\n" +
-          //   "                    <p>" + result.monthDay + "</p>\n" +
-          //   "                    <i class=\"hideIncident\"></i>\n" +
-          //   "                    <span class=\"leftLine\"></span>\n" +
-          //   "                </div>\n" +
-          //   "                <div class=\"timeContentRight\">\n" +
-          //   "                    <div class=\"timeRightTitle\">\n" +
-          //   "                        <h4>" + result.title + "</h4>\n" +
-          //   "                    </div>\n" +
-          //   "                    <div class=\"timeContentIncident\">\n" +
-          //   "                        <ul class=\"particulars\">" + particularStr + "</ul>" +
-          //   "                    </div>\n" +
-          //   "                </div>\n" +
-          //   "            </li>";
-
         });
         // console.log(ulStr);
 
