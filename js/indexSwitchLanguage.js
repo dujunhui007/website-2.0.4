@@ -329,6 +329,7 @@ function loadProperties(str) {
       $('#nav_advantages').html($.i18n.prop('string_navadvantages'));
       $('#nav_scenarios').html($.i18n.prop('string_navscenarios'));
       $('#nav_downloads').html($.i18n.prop('string_navdownloads'));
+      $('#nav_timeLine').html($.i18n.prop('string_navtimeLine'));
       $('#nav_partners').html($.i18n.prop('string_navpartners'));
       $('#nav_links').html($.i18n.prop('string_navlinks'));
 
@@ -490,6 +491,8 @@ function loadProperties(str) {
       $('#footerEmail2').html($.i18n.prop('string_footerEmail2'));
       $('#footerEmail3').html($.i18n.prop('string_footerEmail3'));
       $('#footerEmail4').html($.i18n.prop('string_footerEmail4'));
+
+      $('#timeLineLink').html($.i18n.prop('string_timeLineLink'));
 
     }
   });

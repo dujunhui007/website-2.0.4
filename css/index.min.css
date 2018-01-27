@@ -3853,7 +3853,7 @@ footer .footerRight span {
         display: inline-block;
         float: right;
         background: 0 0;
-        padding-right: 275px;
+        padding-right: 260px;
     }
 
     nav .navContainer .navRight .equalThan li a {
@@ -3861,7 +3861,7 @@ footer .footerRight span {
         height: 100%;
         color: #fff;
         font-size: 16px;
-        padding-right: 11px;
+        padding-right: 8px;
         font-family: aschFont;
     }
 
@@ -3870,7 +3870,27 @@ footer .footerRight span {
         height: 100%;
         color: #000;
         font-size: 16px;
-        padding-right: 11px;
+        padding-right: 8px;
         font-family: aschFont;
     }
+
+    #timeLine .toTimeLine{
+        position: absolute;
+        display: block;
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 25px;
+        right: 50px;
+        bottom: 30px;
+        border: 1px solid #ccc;
+        background: #f9f9f9;
+        font-family: aschFont;
+        font-size: 22px;
+        color: #8d8d8d;
+        z-index: 3;
+    }
+
+
 }

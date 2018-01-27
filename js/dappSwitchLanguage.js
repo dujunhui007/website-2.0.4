@@ -130,6 +130,7 @@ function loadProperties(str) {
       $('#dappNav7').html($.i18n.prop('string_dappNav7'));
       $('#dappNav8').html($.i18n.prop('string_dappNav8'));
       $('#dappNav9').html($.i18n.prop('string_dappNav9'));
+      $('#dappNav10').html($.i18n.prop('string_dappNav10'));
 
       $('#applicationCenterTitle1').html($.i18n.prop('string_applicationCenterTitle1'));
       $('#applicationCenterTitle2').html($.i18n.prop('string_applicationCenterTitle1'));
