@@ -654,6 +654,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     font-family: aschFont;
     margin-bottom: 20px;
 }
+
 footer {
     position: relative;
     width: 100%;
@@ -713,15 +714,15 @@ footer .footerLeft .footerWb span {
     background-size: cover
 }
 
-footer .footerRight a:nth-child(2):hover i {
-    display: inline-block;
-    width: 14px;
-    height: 10px;
-    background: url(../images/emailIcon2.png) no-repeat center;
-    background-size: cover;
-    vertical-align: baseline;
-    margin-right: 10px
-}
+/*footer .footerRight a:nth-child(2):hover i {*/
+/*display: inline-block;*/
+/*width: 14px;*/
+/*height: 10px;*/
+/*background: url(../images/emailIcon2.png) no-repeat center;*/
+/*background-size: cover;*/
+/*vertical-align: baseline;*/
+/*margin-right: 10px*/
+/*}*/
 
 footer .footerRight a:hover span {
     color: #ffa81c
@@ -756,15 +757,15 @@ footer .footerRight p {
     font-family: aschFont;
 }
 
-footer .footerRight a:nth-child(2) i {
-    display: inline-block;
-    width: 14px;
-    height: 10px;
-    background: url(../images/emailIcon.png) no-repeat center;
-    background-size: cover;
-    vertical-align: baseline;
-    margin-right: 10px
-}
+/*footer .footerRight a:nth-child(2) i {*/
+/*display: inline-block;*/
+/*width: 14px;*/
+/*height: 10px;*/
+/*background: url(../images/emailIcon.png) no-repeat center;*/
+/*background-size: cover;*/
+/*vertical-align: baseline;*/
+/*margin-right: 10px*/
+/*}*/
 
 footer .footerRight span {
     color: #fff;
@@ -772,6 +773,7 @@ footer .footerRight span {
     margin-left: 10px;
     float: right;
 }
+
 
 @media screen and (max-width: 1910px){
     .applicationContainer .applicationCenter .applicationContent .applicationContentLeft{
