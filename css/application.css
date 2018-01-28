@@ -307,7 +307,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     background: #1c49ae;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1910px) {
     nav .navContainer .navRight {
         padding-right: 70px
         /*margin-right: 100px;*/
